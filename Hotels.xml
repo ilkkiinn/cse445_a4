@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://ilkkiinn.github.io/cse445_a4/Hotels.xsd">
-
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
   <Hotel id="h1" Rating="4.2">
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
@@ -13,7 +12,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h2" Rating="4.0">
     <Phone>480-123-4567</Phone>
     <Name>Hyatt Place Tempe</Name>
@@ -25,7 +23,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h3">
     <Phone>480-234-5678</Phone>
     <Name>Courtyard by Marriott Tempe Downtown</Name>
@@ -37,7 +34,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h4" Rating="4.5">
     <Phone>480-345-6789</Phone>
     <Name>Tempe Mission Palms</Name>
@@ -49,7 +45,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h5">
     <Phone>480-456-7890</Phone>
     <Name>AC Hotel Phoenix Tempe/Downtown</Name>
@@ -61,7 +56,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h6" Rating="3.9">
     <Phone>480-567-8901</Phone>
     <Name>Graduate Tempe</Name>
@@ -73,7 +67,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h7">
     <Phone>480-678-9012</Phone>
     <Name>Hampton Inn &amp; Suites Phoenix-Tempe</Name>
@@ -85,7 +78,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h8" Rating="4.1">
     <Phone>480-789-0123</Phone>
     <Name>Hilton Garden Inn Phoenix-Tempe</Name>
@@ -97,7 +89,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h9">
     <Phone>480-890-1234</Phone>
     <Name>Holiday Inn Express &amp; Suites Tempe</Name>
@@ -109,7 +100,6 @@
       <Zip>85283</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h10" Rating="4.3">
     <Phone>480-901-2345</Phone>
     <Name>Omni Tempe Hotel at ASU</Name>
@@ -121,7 +111,6 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
   <Hotel id="h11">
     <Phone>480-012-3456</Phone>
     <Name>Home2 Suites by Hilton Tempe</Name>
