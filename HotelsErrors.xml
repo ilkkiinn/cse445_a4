@@ -1,58 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel> <!-- 1 Mitsake (Owibka) WRONG ROOT NAME: 'Hotel' instead of 'Hotels' -->
-  <Hotel id="h1" Rating="4.2">
-    <Name>Westin</Name>
+<Hotel>
+  <Hotel Rating="4.2">
+    <n>Westin</n>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address country="USA">
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
-
-  <!-- (2) Mistake (Owibka) MISSING REQUIRED ATTRIBUTE: id is required by XSD but omitted -->
-  <Hotel Rating="4.0">
-    <Name>Hyatt Place Tempe</Name>
-    <!-- (3) Mistake (Owibka) MISSING Phone element entirely for this hotel -->
-    <Address country="USA">
+  <Hotel>
+    <n>Hyatt Place Tempe</n>
+    <Address NearestAirport="Sky Harbor">
       <Number>730</Number>
       <Street>S Mill Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
-
-  <!-- (4) Mistake (Owibka) UNCLOSED Address closing tag -->
-  <Hotel id="h3">
-    <Name>Courtyard by Marriott Tempe Downtown</Name>
+  <Hotel>
+    <n>Courtyard by Marriott Tempe Downtown</n>
     <Phone>480-234-5678</Phone>
-    <Address country="USA">
+    <Address NearestAirport="Sky Harbor">
       <Number>601</Number>
       <Street>S Ash Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
   </Hotel>
-
-  <!-- (5) Mistake (Owibka) TWO Name elements -->
-  <Hotel id="h4">
-    <Name>Tempe Mission Palms</Name>
-    <Name>Duplicate Name Should Not Be Here</Name>
+  <Hotel Rating="4.5">
+    <n>Tempe Mission Palms</n>
+    <n>Duplicate Name</n>
     <Phone>480-345-6789</Phone>
-    <Address country="USA">
+    <Address NearestAirport="Sky Harbor">
       <Number>60</Number>
       <Street>E 5th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 </Hotel>
